@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #db1568;
+}
+
+.custom-btn{
+    background: #db1568;
+    color: white;
+    padding: 6px 30px;
+    border: 1px dotted white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.custom-btn:hover{
+    background-color: white;
+    color: #db1568;
+    border: 1px dotted #db1568;
+}
+
+nav{
+    background: var(--primary-color);
+}
