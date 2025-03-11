@@ -19,6 +19,16 @@
     font-weight: 500;
     transition: all 0.3s ease;
 }
+.custom-active-btn{
+    color: #db1568;
+    padding: 6px 30px;
+    border: 1px dotted #db1568;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
 .custom-btn:hover{
     background-color: white;
     color: #db1568;
